@@ -10,3 +10,9 @@
 
      flex-basis: 24%;
  }
+ 
+ #btnid{
+
+    display: flex;;
+    justify-content: center;
+ }

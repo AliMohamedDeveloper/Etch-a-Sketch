@@ -1,7 +1,18 @@
 const container = document.querySelector(".container");
+ const btn = document.createElement("button");
+btn.classList.add("btn");
+btn.id= "btnid";
+btn.textContent="Number of buttons";
+ 
 
-for ( let i = 0 ; i < 16 ; i ++){
+container.appendChild(btn);
+
+btn.addEventListener("click", function (e) {
+   let btnCount = prompt("How many buttons do you want to generate? ");
+   for ( let i = 0 ; i < btnCount ; i ++){
 const testdiv = document.createElement("div");
+
+
 
 testdiv.classList.add("testdiv");
 testdiv.id="eee"
@@ -17,5 +28,6 @@ btns.addEventListener("mouseover" , (event)=>{
     event.target.style.backgroundColor = "red";
 });
 }
+});
 
- 
+
