@@ -1,0 +1,12 @@
+.container{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex-basis: 25%;
+}
+ 
+ #eee{
+
+     flex-basis: 24%;
+ }
